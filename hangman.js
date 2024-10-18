@@ -10,7 +10,7 @@ class Hangman {
     calculateStatus (){
         let finished = true
         this.word.forEach((letter) => {
-            if(!this.guessedLetters.includes(letter)){
+            if(!this.guessedLetters.includes(letter) && letter !== ' '){
                 finished = false
             }
         })
