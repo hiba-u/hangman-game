@@ -14,12 +14,6 @@ window.addEventListener('keypress', (e) => {
     guessesEl.textContent = game.statusMesssage
 })
 
-// getPuzzle('2').then((puzzle) => {
-//     console.log(puzzle)
-// }, (err) => {
-//     console.log(err)
-// })
-
 getPuzzle('2').then((puzzle) => {
     console.log(puzzle)
 }).catch((err) => {
